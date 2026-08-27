@@ -11,9 +11,9 @@ public class Leadcreation extends Baseclass {
     }
     @When("user enters lastname and company and click on save button")
     public void user_enters_lastname_and_company_and_click_on_save_button() {
-        LP.setlastname("R11");
-        LP.setcompany("S11");
-        LP.clickonsave();
+        LP.creatLead("R22","S22");
+
+
     }
     @Then("lead should be created successfully")
     public void lead_should_be_created_successfully() {
