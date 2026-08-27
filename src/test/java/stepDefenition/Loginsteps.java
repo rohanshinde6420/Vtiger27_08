@@ -14,8 +14,6 @@ public class Loginsteps extends Baseclass{
     public void user_enters_valid_credentials_and_click_on_login() {
         lp.setUsername("admin");
         lp.setPassword("admin");
-        lp.setUsername("admin123");
-        lp.setPassword("admin123");
         lp.clickOnLogin();
     }
 

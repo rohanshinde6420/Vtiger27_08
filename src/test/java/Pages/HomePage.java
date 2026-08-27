@@ -22,8 +22,16 @@ public class HomePage extends CommonMethods {
     @FindBy(linkText = "Logout")
     private WebElement logout_link;
 
+    @FindBy(linkText = "New Lead")
+    private WebElement Newlead_link;
+
     public void verifylogoutlink()
     {
         elementDisplay(logout_link,"Logout link is displayed");
+    }
+
+    public void clickOnNewLead()
+    {
+        clickElement(Newlead_link);
     }
 }
