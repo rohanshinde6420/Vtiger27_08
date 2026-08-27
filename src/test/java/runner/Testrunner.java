@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/feature",
         glue = "stepDefenition",
         dryRun = false,
-        tags = "@Invalid",
+        tags = "@Login",
         plugin =  {
                 "pretty",
                 "html:target/cucumber-reports.html",
